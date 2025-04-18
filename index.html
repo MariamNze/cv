@@ -26,26 +26,32 @@
 
             <div id="description">
                 <h2>En formation TP Développeur Web et Web Mobile</h2>
-                <p>Actuellement en reconversation professionnelle Développeur Web et Web Mobile, je combine mon expérience en relation client avec ma passion pour le développement web. À la recherche d'un <strong>stage non rémunéré du <time datetime="2025-09-15">15 septembre</time> au <time datetime="2025-11-21">21 novembre 2025</time></strong>, je souhaite mettre en pratique mes compétences techniques et mon sens du service dans un environnement dynamique.</p>
+                <p>Actuellement en reconversation professionnelle Développeur Web et Web Mobile, je combine mon expérience en relation client avec ma passion pour le développement web. À la recherche d'un <strong>stage non rémunéré du <time datetime="2025-09-29">29 septembre</time> au <time datetime="2025-12-05">05 décembre 2025</time></strong>, je souhaite mettre en pratique mes compétences techniques et mon sens du service dans un environnement dynamique.</p>
                 
                 <a href="medias/cv-mariam.pdf" target="_blank">
-                    <button>Télechargez mon CV</button>
+                    <button><i class="fa fa-download"></i>Télechargez mon CV</button>
                 </a>
             </div>
         </section>
 
         <section id="container">
-            <nav>
-                <ul>
-                    <li><a href="#about"><i class="fa fa-user"></i><span class="text">À propos</span></a></li>
-                    <li><a href="#education"><i class="fa fa-graduation-cap"></i><span class="text">Formations</span></a></li>
-                    <li><a href="#skills"><i class="fa fa-gears"></i><span class="text">Compétences</span></a></li>
-                    <li><a href="#experience"><i class="fa fa-briefcase"></i><span class="text">Expériences</span></a></li>
-                    <li><a href="#projects"><i class="fa fa-folder-open"></i><span class="text">Projets</span></a></li>
-                    <li><a href="#hobbies"><i class="fa fa-book"></i><span class="text">Hobbies</span></a></li>
-                    <li><a href="#contact"><i class="fa fa-envelope"></i><span class="text">Contact</span></a></li>
-                </ul>
-            </nav>
+            <button id="hamburger-btn">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div id="nav-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#about"><i class="fa fa-user"></i><span class="text">À propos</span></a></li>
+                        <li><a href="#education"><i class="fa fa-graduation-cap"></i><span class="text">Formations</span></a></li>
+                        <li><a href="#skills"><i class="fa fa-gears"></i><span class="text">Compétences</span></a></li>
+                        <li><a href="#experience"><i class="fa fa-briefcase"></i><span class="text">Expériences</span></a></li>
+                        <li><a href="#projects"><i class="fa fa-folder-open"></i><span class="text">Projets</span></a></li>
+                        <li><a href="#hobbies"><i class="fa fa-book"></i><span class="text">Hobbies</span></a></li>
+                        <li><a href="#contact"><i class="fa fa-envelope"></i><span class="text">Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
 
             <section id="content">
                     <section id="education">
@@ -59,7 +65,7 @@
                             <div class="education">
                                 <h3>DUT Techniques de Commercialisation (Bac +2)</h3>
                                 <p class="school">IUT de Tours</p>
-                                <p class="date"><time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time</p>
+                                <p class="date"><time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time></p>
                             </div>
     
                             <div class="education">
@@ -75,17 +81,17 @@
                             <h3>DÉVELOPPEMENT FRONT-END</h3>
                             <div class="skill-bars">
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 90%">
+                                    <div class="skill-level" style="--final-width: 80%; width: 0%">
                                         <span class="skill-name">HTML</span>
                                     </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 80%">
+                                    <div class="skill-level" style="--final-width: 75%; width: 0%">
                                         <span class="skill-name">CSS</span>
                                     </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 30%">
+                                    <div class="skill-level" style="--final-width: 30%; width: 0%">
                                         <span class="skill-name">JavaScript</span>
                                     </div>
                                 </div>
@@ -96,13 +102,13 @@
                             <h3>DÉVELOPPEMENT BACK-END</h3>
                             <div class="skill-bars">
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 5%">
+                                    <div class="skill-level" style="--final-width: 15%; width: 0%">
                                         <span class="skill-name">Java</span>
                                     </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 3%">
-                                        <span class="skill-name">MySQL</span>
+                                    <div class="skill-level" style="--final-width: 12%; width: 0%">
+                                        <span class="skill-name">SQL</span>
                                     </div>
                                 </div>
                             </div>
@@ -113,12 +119,12 @@
                             <h3>LANGUES</h3>
                             <div class="skill-bars">
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 95%">
+                                    <div class="skill-level" style="--final-width: 99%; width: 0%">
                                         <span class="skill-name">Anglais</span>
                                     </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-level" style="width: 55%">
+                                    <div class="skill-level" style="--final-width: 55%; width: 0%">
                                         <span class="skill-name">Allemand</span>
                                     </div>
                                 </div>
@@ -291,5 +297,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const nav = document.querySelector("nav");
+    
+        hamburgerBtn.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+
+        document.querySelectorAll("nav a").forEach(link => {
+            link.addEventListener("click", () => {
+                nav.classList.remove("show");
+            });
+        });
+    </script>
 </body>
 </html>
