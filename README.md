@@ -1,4 +1,4 @@
-# Digital Resume 💻📄
+# Digital Resume 💻📄 - V1
 
 ![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat&logo=github&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
