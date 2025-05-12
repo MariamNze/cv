@@ -12,3 +12,5 @@ Projet completed during my training course [DWWM](https://gretaformation.ac-orle
 
 Note on the contact form: The goal of this exercise was to gain familiarity with contact forms and the basic HTML elements needed for simple cases.
 Setting up a web server to retrieve and process data will be done later.
+
+<img src= "medias/screenshot-cv.png" width="600"/>
